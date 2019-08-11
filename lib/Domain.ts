@@ -7,7 +7,7 @@ export class Domain {
         this.domainUrl = domain;
     }
 
-    private static async isFree(domain: string): Promise<boolean> {
+    public static async isFree(domain: string): Promise<boolean> {
         const d = new this(domain);
         return await d.isFree();
     }
