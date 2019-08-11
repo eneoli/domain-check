@@ -18,7 +18,7 @@ const Domain = domainCheck.Domain;
 
 ...
 
-const domain = new Domain('google.de);
+const domain = new Domain('google.de');
 console.log(await domain.isFree());
 
 ```
@@ -26,7 +26,7 @@ console.log(await domain.isFree());
 or the static method `isFree` of the Domain class
 
 ```js
-    const Domain = require('domain-check).Domain;
+    const Domain = require('domain-check').Domain;
 
     ...
 
