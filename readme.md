@@ -4,7 +4,7 @@ domain-check is a node module using promises allowing to check if a domain is fr
 # Installation
 ```bash
 npm install domain-check --save
-yarn add mypluralize
+yarn add domain-check
 bower install domain-check --save
 ```
 
@@ -23,7 +23,7 @@ console.log(await domain.isFree());
 
 ```
 
-or the static method `isFree` of the Domain class
+or use the static method `isFree` of the Domain class
 
 ```js
     const Domain = require('domain-check').Domain;
