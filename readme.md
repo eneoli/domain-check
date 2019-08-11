@@ -1,4 +1,4 @@
-# domain-check
+# domain-check [![Build Status](https://travis-ci.org/EneOli/domain-check.svg?branch=master)](https://travis-ci.org/EneOli/domain-check)
 domain-check is a node module using promises allowing to check if a domain is free to register or not
 
 # Installation
