@@ -12,7 +12,7 @@ bower install domain-check --save
 
 To check if a domain is free you can create a new `Domain` object...
 
-```
+```js
 const domainCheck = require('domain-check');
 const Domain = domainCheck.Domain;
 
@@ -25,7 +25,7 @@ console.log(await domain.isFree());
 
 or the static method `isFree` of the Domain class
 
-```
+```js
     const Domain = require('domain-check).Domain;
 
     ...
