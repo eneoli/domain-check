@@ -2,7 +2,7 @@
 domain-check is a node module using promises allowing to check if a domain is free to register or not
 
 # Installation
-```sh
+```bash
 npm install domain-check --save
 yarn add mypluralize
 bower install domain-check --save
@@ -36,4 +36,4 @@ or the static method `isFree` of the Domain class
 
 # Known issues
 
-It might be that the modules shows an registered domain as available to register. This is because the underlying library [node-whois](https://github.com/FurqanSoftware/node-whois) can not handle newer domains. A fix is in process.
+It might be that the module shows an registered domain as available to register. This is because the underlying library [node-whois](https://github.com/FurqanSoftware/node-whois) can not handle newer domains. A fix is in progress.
