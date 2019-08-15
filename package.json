@@ -1,9 +1,13 @@
 {
   "name": "domain-check",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Check if a domain is free or not using promises",
+  "keywords": ["domain", "whois", "internet", "domain-check", "web"],
+  "homepage": "https://github.com/eneoli/domain-check",
+  "bugs": {"url": "https://github.com/eneoli/domain-check/issues", "email": "oliver@enesnet.de"},
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {"type": "git", "url": "https://github.com/eneoli/domain-check.git"},
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\""
