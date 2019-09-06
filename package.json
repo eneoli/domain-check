@@ -1,6 +1,6 @@
 {
   "name": "domain-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check if a domain is free or not using promises",
   "keywords": ["domain", "whois", "internet", "domain-check", "web"],
   "homepage": "https://github.com/eneoli/domain-check",
