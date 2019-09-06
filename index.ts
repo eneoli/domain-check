@@ -1,1 +1,1 @@
-import './lib/Domain'
+export {Domain} from './lib/Domain'
