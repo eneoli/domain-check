@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node_modules/.bin/mocha tests"
+    "test": "npm run build && mocha tests/"
   },
   "author": "Oliver Enes",
   "license": "ISC",
