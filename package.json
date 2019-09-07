@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\""
+    "test": "node_modules/.bin/mocha tests"
   },
   "author": "Oliver Enes",
   "license": "ISC",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "tslint": "^5.19.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "mocha": "^6.2.0"
   }
 }
