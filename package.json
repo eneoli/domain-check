@@ -32,6 +32,6 @@
   "devDependencies": {
     "tslint": "^5.19.0",
     "typescript": "^3.5.3",
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   }
 }
